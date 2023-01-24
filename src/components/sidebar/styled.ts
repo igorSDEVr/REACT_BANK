@@ -55,30 +55,6 @@ export const SidebarLink = styled(LinkS)`
   }
 `;
 
-export const SideBtnWrap = styled.div`
-  display: flex;
-  justify-content: center;
-`;
-
-export const SidebarRoute = styled(LinkR)`
-  border-radius: 30px;
-  background-color: #01bf71;
-  white-space: nowrap;
-  padding: 16px 64px;
-  color: #010606;
-  outline: none;
-  border: none;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  text-decoration: none;
-
-  &:hover {
-    transition: all 0.2s;
-    background-color: #fff;
-    color: #010606;
-  }
-`;
-
 export const SidebarMenu = styled.div`
   display: grid;
   grid-template-columns: 1fr;
