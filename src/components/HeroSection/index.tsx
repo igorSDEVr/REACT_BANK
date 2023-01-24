@@ -18,9 +18,9 @@ export const HeroSection = () => {
         <C.VideoBg autoPlay loop muted src={video} />
       </C.HeroBg>
       <C.HeroContent>
-        <C.HeroH1>Virtual Banking Made Easy</C.HeroH1>
+        <C.HeroH1>Banco Digital</C.HeroH1>
         <C.HeroP>
-          Sign Up for a new account and receive $250 in credits towards your next payments.
+          Cadastre-se e receba R$250 em créditos para seus próximos pagamentos.
         </C.HeroP>
         <C.HeroBtnWrapper>
           <Button
@@ -30,7 +30,7 @@ export const HeroSection = () => {
             primary={true}
             dark={true}
           >
-            Get started{hover ? <C.ArrowForward /> : <C.ArrowRight />}
+            Iniciar{hover ? <C.ArrowForward /> : <C.ArrowRight />}
           </Button>
         </C.HeroBtnWrapper>
       </C.HeroContent>

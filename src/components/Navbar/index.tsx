@@ -45,7 +45,7 @@ export const Navbar = ({ toggle }: Props) => {
               spy={true}
               offset={-80}
             >
-              About
+              Sobre Nós
             </C.NavLinks>
           </C.NavItem>
           <C.NavItem>
@@ -67,7 +67,7 @@ export const Navbar = ({ toggle }: Props) => {
               spy={true}
               offset={-80}
             >
-              Services
+              Serviços
             </C.NavLinks>
           </C.NavItem>
           <C.NavItem>
@@ -78,7 +78,7 @@ export const Navbar = ({ toggle }: Props) => {
               spy={true}
               offset={-80}
             >
-              SignUp
+              Cadastre-se
             </C.NavLinks>
           </C.NavItem>
         </C.NavMenu>
