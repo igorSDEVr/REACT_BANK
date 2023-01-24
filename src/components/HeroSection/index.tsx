@@ -24,11 +24,11 @@ export const HeroSection = () => {
         </C.HeroP>
         <C.HeroBtnWrapper>
           <Button
-            to='signup'
+            to='/'
             onMouseEnter={onHover}
             onMouseLeave={onHover}
-            primary='true'
-            dark='true'
+            primary={true}
+            dark={true}
           >
             Get started{hover ? <C.ArrowForward /> : <C.ArrowRight />}
           </Button>
