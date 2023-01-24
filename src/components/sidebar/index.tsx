@@ -13,10 +13,10 @@ export const Sidebar = ({ isOpen, toggle }: Props) => {
       </C.Icon>
       <C.SidebarWrapper>
         <C.SidebarMenu>
-          <C.SidebarLink to='about' onClick={toggle}>About</C.SidebarLink>
+          <C.SidebarLink to='about' onClick={toggle}>Sobre</C.SidebarLink>
           <C.SidebarLink to='discover' onClick={toggle}>Discover</C.SidebarLink>
-          <C.SidebarLink to='services' onClick={toggle}>Services</C.SidebarLink>
-          <C.SidebarLink to='signup' onClick={toggle}>Signup</C.SidebarLink>
+          <C.SidebarLink to='services' onClick={toggle}>Serviços</C.SidebarLink>
+          <C.SidebarLink to='signup' onClick={toggle}>Cadastre-se</C.SidebarLink>
         </C.SidebarMenu>
       </C.SidebarWrapper>
     </C.Container>
